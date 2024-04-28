@@ -11,6 +11,18 @@ public class PS {
 		System.out.println("I am here");
 		
 	}
+
+	public void doTaaahis()
+	{
+		System.out.println("I am here");
+		
+	}
+
+	public void doTaahis()
+	{
+		System.out.println("I am here");
+		
+	}
 	@BeforeTest
 	public void bTest()
 	{
