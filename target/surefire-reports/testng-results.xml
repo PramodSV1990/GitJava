@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-20T21:02:55 IST" name="Suite" finished-at="2024-04-20T21:03:59 IST" duration-ms="63614">
+    <groups>
+      <group name="order">
+        <method signature="EcommerceE.submitOrder(java.util.HashMap)[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" name="submitOrder" class="pramodinc.seleniumframework.EcommerceE"/>
+      </group> <!-- order -->
+    </groups>
+    <test started-at="2024-04-20T21:02:55 IST" name="Test" finished-at="2024-04-20T21:03:59 IST" duration-ms="63614">
+      <class name="pramodinc.seleniumframework.AmaonAlert">
+        <test-method signature="amazonOrder()[pri:0, instance:pramodinc.seleniumframework.AmaonAlert@61c4eee0]" started-at="2024-04-20T21:03:42 IST" name="amazonOrder" finished-at="2024-04-20T21:03:59 IST" duration-ms="17085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonOrder -->
+      </class> <!-- pramodinc.seleniumframework.AmaonAlert -->
+      <class name="pramodinc.seleniumframework.EcommerceE">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:02:55 IST" name="initialize" finished-at="2024-04-20T21:03:00 IST" duration-ms="4794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="errorValidation()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:00 IST" name="errorValidation" finished-at="2024-04-20T21:03:01 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidation -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:01 IST" name="endDriver" finished-at="2024-04-20T21:03:02 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:02 IST" name="initialize" finished-at="2024-04-20T21:03:04 IST" duration-ms="2706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:04 IST" name="submitOrder" data-provider="getData1" finished-at="2024-04-20T21:03:08 IST" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=C@pslock1, product=ZARA COAT 3, email=samdan1@gma.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:08 IST" name="endDriver" finished-at="2024-04-20T21:03:08 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:08 IST" name="initialize" finished-at="2024-04-20T21:03:11 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:11 IST" name="submitOrder" data-provider="getData1" finished-at="2024-04-20T21:03:22 IST" duration-ms="10757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=C@pslock1, product=ADIDAS ORIGINAL, email=danshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:22 IST" name="endDriver" finished-at="2024-04-20T21:03:25 IST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:25 IST" name="initialize" finished-at="2024-04-20T21:03:30 IST" duration-ms="4441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:30 IST" name="submitOrder" data-provider="getData1" finished-at="2024-04-20T21:03:40 IST" duration-ms="10197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=C@pslock1, product=IPHONE 13 PRO, email=samda45qq@gma.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:pramodinc.seleniumframework.EcommerceE@14028087]" started-at="2024-04-20T21:03:40 IST" name="endDriver" finished-at="2024-04-20T21:03:42 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- pramodinc.seleniumframework.EcommerceE -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
